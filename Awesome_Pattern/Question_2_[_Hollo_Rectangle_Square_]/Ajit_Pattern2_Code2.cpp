@@ -1,11 +1,9 @@
 #include<iostream>
-#include<stdlib.h>
 using namespace std;
 
 int main(){
 
  int row,column;
-  system("cls");
 
   cout << "ENTER THE NO. OF [ ROW ] : " << '\n';
   cin>>row;
@@ -14,32 +12,21 @@ int main(){
 
 cout <<"------------[ PATTERN ]---------"<<"\n\n";
 
-  for (int i = 0; i < column; i++) {
-    cout << "* ";
-  }
-cout<<endl;
   for (int i = 0; i < row; i++) {
     /* code */
     for (int j = 0; j < column; j++) {
       /* code */
-      if(j==0){
-          cout << "* ";
+      if(i==0 || i==row-1){
+        cout<<"* ";
+      }
+      else if(j==0 || j==column-1){
+        cout<<"* ";
       }
       else{
-           if(j==column-1){
-            cout << "* ";
-           }
-           else{
-              cout << "  ";
-           }
+        cout<<"  ";
       }
-   }
-   cout << '\n';
+    }
+   cout<<endl;
   }
-
-  for (int i = 0; i < column; i++) {
-    cout << "* ";
-  }
-
-  return 0;
+return 0;
 }
