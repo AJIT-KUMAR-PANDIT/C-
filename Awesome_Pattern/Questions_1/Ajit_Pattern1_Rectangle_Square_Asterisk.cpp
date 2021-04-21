@@ -1,10 +1,12 @@
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 /* main */
 int main() {
   /* code */
- int row=1,column=1;
+ int row,column;
+ system("cls");
     cout << "ENTER THE NO. OF [ ROW ] : " << '\n';
     cin>>row;
     cout << "ENTER THE NO. OF [ COLUMN ] : " << '\n';
