@@ -11,9 +11,9 @@ int main(){
 
  cout <<"------------[ PATTERN ]---------"<<"\n\n";
 
-  for (int i = 1; i < row; i++) {
+  for (int i = 0; i < row; i++) {
     /* code */
-    for (int j = 1; j < row; j++) {
+    for (int j = 0; j < row; j++) {
       /* code */
       if (j<=row-i) {
         /* code */
