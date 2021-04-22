@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
- int row,column;// initialization of variable
+ int row;// initialization of variable
 
   cout << "ENTER THE NO. OF [ ROW ] : " << '\n';
   cin>>row;
